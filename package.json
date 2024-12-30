@@ -1,7 +1,7 @@
 {
   "name": "calculator",
   "version": "0.1.0",
-  "homepage": "https://sachinadk2011-calculator.com",
+  "homepage": "https://sachinadk2011.github.io/calculator/",
   "private": true,
   "dependencies": {
     "@heroicons/react": "^2.2.0",
