@@ -47,10 +47,10 @@ export default function Calculator(){
         <>
         <div className='absolute left-3 w-1/2  md:inline-flex hidden'>
 
-          <img src='/calculator.png' alt='calculator' />
+          <img src={`${process.env.PUBLIC_URL}/calculator.png`} alt='calculator' />
         </div>
        <div className=" md:w-1/4    absolute -right-10  w-full  md:right-0 md:top-24  p-4 bg-green-400 m-10 ">
-       <img src='avatar.jpg' className='w-24 border md:w-16 md:left-12 lg:w-24 lg:left-24 rounded-full relative left-1/3 mb-6' alt='avatar'/>
+       <img src={`${process.env.PUBLIC_URL}/avatar.jpg`} className='w-24 border md:w-16 md:left-12 lg:w-24 lg:left-24 rounded-full relative left-1/3 mb-6' alt='avatar'/>
   {/* Display box for input and output */}
   <div className="grid grid-cols-1 gap-2 mb-4 p-2 border rounded bg-white text-right">
     <div >{input || "0"}</div> {/* Show input or 0 if input is empty */}
